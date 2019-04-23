@@ -1,0 +1,4 @@
+{
+    "TZT_IR|block": "天正通红外扩展",
+    "TZT_IR.onPressEvent|block": "OLED初始化为高度 %height|宽度 %width"
+}

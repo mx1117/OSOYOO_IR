@@ -4,20 +4,20 @@
 
     //% color="#31C7D5" weight=19
     //% icon="\uf1eb"
-declare namespace OSOYOO_IR {
+declare namespace TZT_IR {
 
     /**
      * button pushed.
      */
     //% blockId=ir_received_left_event
-    //% block="on |%btn| button pressed" shim=Mbit_IR::onPressEvent
+    //% block="on |%btn| button pressed" shim=TZT_IR::onPressEvent
     function onPressEvent(btn: RemoteButton, body: () => void): void;
 
     /**
      * initialises local variablesssss
      */
     //% blockId=ir_init
-    //% block="connect ir receiver to %pin" shim=Mbit_IR::init
+    //% block="connect ir receiver to %pin" shim=TZT_IR::init
     function init(pin: Pins): void;
 }
 

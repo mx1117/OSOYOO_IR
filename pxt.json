@@ -1,7 +1,7 @@
 {
-    "name": "OSOYOO_IR",
+    "name": "TZT_IR",
     "version": "1.0.0",
-    "description": "Extension for OSOYOO micro:bit IR receiver module",
+    "description": "Extension for micro:bit using IR receiver module",
     "license": "MIT",
     "dependencies": {
         "core": "*"
@@ -14,7 +14,8 @@
         "ReceiverIR.h",
         "RemoteIR.h",
         "TransmitterIR.cpp",
-        "TransmitterIR.h"
+        "TransmitterIR.h",
+        "_locales/zh/SSD1306_OLED-strings.json"
     ],
     "public": true
 }
